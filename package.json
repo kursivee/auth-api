@@ -1,0 +1,20 @@
+{
+  "name": "vendor-api",
+  "version": "1.0.0",
+  "description": "Node server for vendor API",
+  "main": "index.js",
+  "author": "Kursivee <kursivee.dev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-winston": "^2.5.1",
+    "jsonwebtoken": "^8.2.1",
+    "rand-token": "^0.4.0",
+    "winston": "^2.4.2"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0"
+  }
+}
