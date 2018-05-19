@@ -1,6 +1,6 @@
 import express from 'express';
-import { sayHello, login, verifyToken } from './login.service';
-import { wrapRouter } from '../util/router.utils';
+import { login, verifyToken } from './login.service';
+import { register } from 'router-wrap';
 
 const router = express.Router();
 
@@ -21,4 +21,4 @@ router.get('/validate', (req, res) => {
     }
 });
 
-export default wrapRouter('/auth', router);
+register('/auth', router);

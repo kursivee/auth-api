@@ -1024,6 +1024,10 @@ repeating@^2.0.0:
   dependencies:
     is-finite "^1.0.0"
 
+"router-wrap@git+ssh://git@github.com:kursivee/router-wrap.git#1.0.1":
+  version "1.0.1"
+  resolved "git+ssh://git@github.com:kursivee/router-wrap.git#f13c05663dcba82ed82ebf038e61d89b9bb34d4d"
+
 safe-buffer@5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"

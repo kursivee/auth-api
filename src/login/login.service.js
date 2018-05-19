@@ -1,10 +1,6 @@
 import { createJWT, createRefreshToken, verifyJWT } from '../jwt/jwt.service';
 import { Error, Response } from '../util/response.utils';
 
-export function sayHello(name) {
-    return `Hello ${name}`;
-}
-
 export function login(username, password) {
     // Move this to db call
     if(username === 'user' && password === 'password') {
